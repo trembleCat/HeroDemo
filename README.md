@@ -1,4 +1,4 @@
-[Hero](https://github.com/HeroTransitions/Hero)是一个能快速添加转场动画的第三方框架，在Github上有17.5K的星。([中文说明](https://github.com/HeroTransitions/Hero/blob/develop/README.zh-cn.md))
+## [Hero](https://github.com/HeroTransitions/Hero)是一个能快速添加转场动画的第三方框架，在Github上有17.5K的星。([中文说明](https://github.com/HeroTransitions/Hero/blob/develop/README.zh-cn.md))
 
 **安装方法**
 ```
@@ -50,7 +50,7 @@
 
 ---
 
-###简单实例二
+### 简单实例二
 
 ![简单实例二](https://upload-images.jianshu.io/upload_images/11157535-a5b73d9c39552af9.gif?imageMogr2/auto-orient/strip)
 
@@ -93,6 +93,6 @@
 >        return cell
 >    }
 >```
-**这样就完成了啦。(虽然还有点小BUG,在滑动之后隐藏会有重影效果)**
+**这样就完成了啦。(虽然还有点小BUG,在滑动之后隐藏会有重影效果)**  
 **有什么问题还希望大家可以指出**
 
