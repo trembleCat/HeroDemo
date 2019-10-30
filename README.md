@@ -12,12 +12,12 @@
 
 - **先创建好两个控制器，确定最终要显示的界面**
 
->**$\color{#9400D3}{在控制器一中创建}$**
+>**在控制器一中创建**
 >
 >黑色View，取名**blackView1**
 >红色View，取名**redView1**
 
->**$\color{#9400D3}{在控制器二中创建}$**
+>**在控制器二中创建**
 >
 >红色View，取名**redView2**
 >黑色View，取名**blackView2**
@@ -27,14 +27,14 @@
 
 ---
 
->**$\color{#9400D3}{接下来实现控制器一的动画代码}$**
+>**接下来实现控制器一的动画代码**
 >```swift
  >//id可以为任意名，但必须要与第二个控制器中相同View的id名相同才能实现动画
 >redView1.hero.id = "redView"    
 >blackView1.hero.id = "blackView"
 >```
 
->**$\color{#9400D3}{然后实现控制器二的动画代码}$**
+>**然后实现控制器二的动画代码**
 >```swift
 >self.hero.isEnabled = true     //开启转场动画，建议在present或push前调用
  >
@@ -56,30 +56,30 @@
 
 - **同样要先写好两个控制器的界面**
 
->**$\color{#9400D3}{在控制器一中创建}$**
+>**在控制器一中创建**
 >
 >灰色圆形View，取名为**greyView1**
 
->**$\color{#9400D3}{在控制器二中创建}$**
+>**在控制器二中创建**
 >
 >灰色条状View，取名为**greyView2**
 >红色的CollectionView，取名为**collectionView2**
 
 ---
->**$\color{#9400D3}{接下来实现控制器一的动画代码}$**
+>**接下来实现控制器一的动画代码**
 >
 >```swift
 >greyView1.hero.id = "greyView"
 >```
 
->**$\color{#9400D3}{然后实现控制器二的动画代码}$**
+>**然后实现控制器二的动画代码**
 >
 >```swift
 >greyView2.hero.id = "greyView"
 >////层叠应用增加子视图的延迟修饰符(添加子视图动画时会有延迟加载)
 >collectionView2.hero.modifiers = [.cascade]
 >```
->**$\color{#9400D3}{并在循环利用cell的方法中(个人认为应该是在这个方法中)}$**
+>**并在循环利用cell的方法中(个人认为应该是在这个方法中**
 >```swift
 >func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 >        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
@@ -94,4 +94,5 @@
 >    }
 >```
 **这样就完成了啦。(虽然还有点小BUG,在滑动之后隐藏会有重影效果)**
+**有什么问题还希望大家可以指出**
 
