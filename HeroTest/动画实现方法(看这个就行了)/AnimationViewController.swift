@@ -47,7 +47,7 @@ class ViewController_1A: UIViewController {
     }
 }
 
-// 类分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// 实例1类分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 class ViewController_1B: UIViewController {
     
@@ -115,7 +115,7 @@ class ViewController_2A: UIViewController {
     }
 }
 
-// 类分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// 实例2类分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 class ViewController_2B: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
 
@@ -208,7 +208,7 @@ class ViewController_3A: UIViewController {
     }
 }
 
-// 类分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// 实例3类分割线~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 class ViewController_3B: UIViewController {
     
